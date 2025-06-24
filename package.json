@@ -1,0 +1,48 @@
+{
+  "name": "corrado-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "gh-pages": "^5.0.0"
+  },
+  
+"homepage": "https://CorradoLocati.github.io/corrado-portfolio"
+
+{
+  "name": "corrado-tailwind-working",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.0.0",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "katex": "^0.16.22",
+    "lucide-react": "^0.522.0",
+    "react-katex": "^3.1.0",
+    "react-router-dom": "^7.6.2"
+  }
+ 
+}
